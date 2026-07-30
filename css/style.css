@@ -919,6 +919,7 @@ nav a:hover::after {
   color: #111;
   text-align: center;
   padding: 14px 20px;
+  min-height: 44px;
   border-radius: var(--radius-sm);
   font-weight: 800;
   font-size: 14px;
@@ -2278,5 +2279,11 @@ td .cross {
 
   .faq-section h2 {
     font-size: 25px;
+  }
+
+  .amazon-btn {
+    min-height: 44px;
+    padding: 14px 18px;
+    font-size: 14px;
   }
 }
