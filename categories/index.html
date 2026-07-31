@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All Categories - Digital & Gear</title>
-  <meta name="description" content="Browse all product categories reviewed by Digital & Gear. Find expert buying guides and comparisons across smart home technology.">
+  <meta name="description" content="Browse all product categories reviewed by Digital & Gear. Find expert buying guides and comparisons across smart home technology, audio, appliances and more.">
   <link rel="canonical" href="https://digitalandgear.com/categories/">
   <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
   <link rel="apple-touch-icon" href="../images/favicon.svg">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/components.css">
   <meta property="og:title" content="All Categories - Digital & Gear">
   <meta property="og:description" content="Browse all product categories with expert reviews and buying guides.">
   <meta property="og:type" content="website">
@@ -16,9 +17,26 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
+    "@type": "ItemList",
     "name": "All Categories",
-    "url": "https://digitalandgear.com/categories/"
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"url":"https://digitalandgear.com/categories/air-purifiers/","name":"Air Purifiers"},
+      {"@type":"ListItem","position":2,"name":"Robot Vacuums","description":"Coming soon"},
+      {"@type":"ListItem","position":3,"name":"Smart Home","description":"Coming soon"},
+      {"@type":"ListItem","position":4,"name":"Audio","description":"Coming soon"},
+      {"@type":"ListItem","position":5,"name":"Computers","description":"Coming soon"},
+      {"@type":"ListItem","position":6,"name":"Home Appliances","description":"Coming soon"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://digitalandgear.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Categories"}
+    ]
   }
   </script>
 </head>
@@ -27,16 +45,21 @@
     <div class="container">
       <a href="../index.html" class="logo">Digital <span>&</span> Gear</a>
       <nav>
-        <a href="../index.html">Home</a>
+        <a href="../reviews/index.html">Reviews</a>
+        <a href="../guides/index.html">Buying Guides</a>
         <div class="nav-dropdown">
           <a href="index.html">Categories ▾</a>
           <span class="dropdown-menu">
-            <a href="air-purifiers/index.html">Air Purifiers</a>
-            
+            <a href="air-purifiers/index.html">🌬 Air Purifiers</a>
+            <a href="robot-vacuums/index.html">🤖 Robot Vacuums</a>
+            <a href="smart-home/index.html">🏠 Smart Home</a>
+            <a href="audio/index.html">🎧 Audio</a>
+            <a href="computers/index.html">💻 Computers</a>
+            <a href="home-appliances/index.html">☕ Home Appliances</a>
+            <a href="index.html" class="dropdown-view-all">View All Categories →</a>
           </span>
         </div>
-        <a href="../reviews/index.html">Reviews</a>
-        <a href="../guides/index.html">Guides</a>
+        <a href="../how-we-test.html">How We Test</a>
         <a href="../about.html">About</a>
       </nav>
       <div class="hamburger" id="hamburger" aria-label="Menu">
@@ -49,19 +72,57 @@
     <section class="article-hero">
       <div class="hero-content">
         <h1>All Product Categories</h1>
-        <p>Browse our expert reviews and buying guides organized by product category.</p>
+        <p>Browse our complete library of independent reviews and buying guides across every technology category.</p>
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="content-section" style="padding:60px 0;">
       <div class="container">
-        <div class="card-grid" style="grid-template-columns: repeat(auto-fill,minmax(280px,1fr));gap:24px;margin-top:20px;">
-          <div class="card" style="border:1px solid #e5e7eb;border-radius:12px;padding:24px;background:white;transition:transform 0.2s, box-shadow 0.2s;">
-            <h3 style="font-size:20px;margin-bottom:8px;">🌬 Air Purifiers</h3>
-            <p style="color:#6b7280;margin-bottom:16px;">Expert reviews and comparisons of HEPA air purifiers for allergies, pets and bedrooms.</p>
-            <a href="air-purifiers/index.html" style="color:#2563eb;font-weight:600;text-decoration:none;">Browse Air Purifiers →</a>
-          </div>
-          
+        <div class="categories-grid" style="grid-template-columns:repeat(3,1fr);">
+
+          <a href="air-purifiers/index.html" style="display:block;background:white;border-radius:18px;padding:32px 26px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(15,23,42,0.06);border:2px solid #dbeafe;transition:all 0.3s ease;">
+            <div style="font-size:42px;margin-bottom:14px;">🌬</div>
+            <h3 style="font-size:20px;margin:0 0 8px;color:#1f2937;font-weight:700;">Air Purifiers</h3>
+            <p style="font-size:14px;color:#64748b;margin:0 0 16px;line-height:1.5;">HEPA reviews, buying guides and comparisons for cleaner home air.</p>
+            <span style="display:inline-flex;align-items:center;gap:6px;background:#eff6ff;color:#1e40af;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;margin-right:8px;">✓ Active</span>
+            <span style="display:inline-flex;align-items:center;gap:6px;color:#1e40af;font-weight:700;font-size:14px;">Explore Now ✓</span>
+          </a>
+
+          <a href="robot-vacuums/index.html" style="display:block;background:white;border-radius:18px;padding:32px 26px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(15,23,42,0.06);border:2px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:42px;margin-bottom:14px;">🤖</div>
+            <h3 style="font-size:20px;margin:0 0 8px;color:#1f2937;font-weight:700;">Robot Vacuums</h3>
+            <p style="font-size:14px;color:#64748b;margin:0 0 16px;line-height:1.5;">Reviews + guides for automated floor cleaning.</p>
+            <span style="display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;color:#64748b;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">🔜 Coming Soon</span>
+          </a>
+
+          <a href="smart-home/index.html" style="display:block;background:white;border-radius:18px;padding:32px 26px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(15,23,42,0.06);border:2px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:42px;margin-bottom:14px;">🏠</div>
+            <h3 style="font-size:20px;margin:0 0 8px;color:#1f2937;font-weight:700;">Smart Home</h3>
+            <p style="font-size:14px;color:#64748b;margin:0 0 16px;line-height:1.5;">Reviews + guides for connected home devices.</p>
+            <span style="display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;color:#64748b;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">🔜 Coming Soon</span>
+          </a>
+
+          <a href="audio/index.html" style="display:block;background:white;border-radius:18px;padding:32px 26px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(15,23,42,0.06);border:2px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:42px;margin-bottom:14px;">🎧</div>
+            <h3 style="font-size:20px;margin:0 0 8px;color:#1f2937;font-weight:700;">Audio</h3>
+            <p style="font-size:14px;color:#64748b;margin:0 0 16px;line-height:1.5;">Reviews + guides for headphones & speakers.</p>
+            <span style="display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;color:#64748b;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">🔜 Coming Soon</span>
+          </a>
+
+          <a href="computers/index.html" style="display:block;background:white;border-radius:18px;padding:32px 26px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(15,23,42,0.06);border:2px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:42px;margin-bottom:14px;">💻</div>
+            <h3 style="font-size:20px;margin:0 0 8px;color:#1f2937;font-weight:700;">Computers</h3>
+            <p style="font-size:14px;color:#64748b;margin:0 0 16px;line-height:1.5;">Reviews + guides for laptops & desktops.</p>
+            <span style="display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;color:#64748b;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">🔜 Coming Soon</span>
+          </a>
+
+          <a href="home-appliances/index.html" style="display:block;background:white;border-radius:18px;padding:32px 26px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(15,23,42,0.06);border:2px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:42px;margin-bottom:14px;">☕</div>
+            <h3 style="font-size:20px;margin:0 0 8px;color:#1f2937;font-weight:700;">Home Appliances</h3>
+            <p style="font-size:14px;color:#64748b;margin:0 0 16px;line-height:1.5;">Reviews + guides for kitchen & home appliances.</p>
+            <span style="display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;color:#64748b;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">🔜 Coming Soon</span>
+          </a>
+
         </div>
       </div>
     </section>
@@ -72,7 +133,7 @@
       <div class="footer-container">
         <div>
           <h3>Digital <span>&</span> Gear</h3>
-          <p>Helping shoppers make better buying decisions through independent product testing, data-driven analysis, and honest, no-nonsense reviews.</p>
+          <p>Helping shoppers make better buying decisions through independent product evaluation, data-driven analysis, and honest, no-nonsense reviews.</p>
         </div>
         <div>
           <h4>Explore</h4>
@@ -83,8 +144,16 @@
         <div>
           <h4>Company</h4>
           <a href="../about.html">About Us</a>
+          <a href="../how-we-test.html">How We Test</a>
+          <a href="../editorial-policy.html">Editorial Policy</a>
           <a href="../contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
           <a href="../privacy.html">Privacy Policy</a>
+          <a href="../affiliate-disclosure.html">Affiliate Disclosure</a>
+
+<a href="../advertising-disclosure.html">Advertising Disclosure</a>
         </div>
       </div>
       <p class="copyright">© 2026 Digital & Gear. All rights reserved.</p>

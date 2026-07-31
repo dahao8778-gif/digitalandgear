@@ -39,6 +39,10 @@ document.addEventListener('DOMContentLoaded', function () {
   // =========================
   const images = document.querySelectorAll('img');
   images.forEach(function (img) {
+    // Skip review-image (product images that need immediate loading)
+    if (img.classList.contains('review-image')) return;
+    // Skip images that already have explicit loading attribute
+    if (img.hasAttribute('loading') && img.getAttribute('loading') !== 'lazy') return;
     img.loading = 'lazy';
     img.decoding = 'async';
   });
@@ -274,9 +278,10 @@ document.addEventListener('DOMContentLoaded', function () {
       const trigger = dd.querySelector(':scope > a');
       const subLinks = dd.querySelectorAll('.dropdown-menu a');
 
-      // Append "View All Categories" link dynamically
+      // Append "View All Categories" link dynamically (skip if already in HTML)
       const menu = dd.querySelector('.dropdown-menu');
-      if (menu && trigger) {
+      const existingViewAll = menu ? menu.querySelector('.dropdown-view-all') : null;
+      if (menu && trigger && !existingViewAll) {
         const viewAll = document.createElement('a');
         viewAll.href = trigger.href;
         viewAll.className = 'dropdown-view-all';
@@ -316,7 +321,31 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 
   // =========================
-  // 12. Console welcome message
+  // 12. Handle disabled / href="#" links
+  // =========================
+  (function () {
+    document.querySelectorAll('a[href="#"]').forEach(function (link) {
+      if (link.classList.contains('disabled')) {
+        var span = document.createElement('span');
+        span.className = link.className;
+        span.innerHTML = link.innerHTML;
+        span.setAttribute('title', 'Coming Soon — Content under development');
+        span.style.cursor = 'not-allowed';
+        span.style.opacity = '0.6';
+        if (link.parentNode) {
+          link.parentNode.replaceChild(span, link);
+        }
+      } else {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        });
+      }
+    });
+  })();
+
+  // =========================
+  // 13. Console welcome message
   // =========================
   console.log(
     '%c 🌬 Digital & Gear — Best Air Purifiers 2026',

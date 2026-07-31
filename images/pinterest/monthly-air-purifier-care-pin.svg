@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#57534E"/>
+      <stop offset="100%" style="stop-color:#D6D3D1"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1000" height="1500"/>
+  <rect x="60" y="60" width="330" height="50" rx="25" fill="white" opacity="0.2"/>
+  <text x="225" y="93" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="2">PRINT CHECKLIST</text>
+  <text x="500" y="300" text-anchor="middle" font-size="120">📋</text>
+  <text x="500" y="440" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="58" font-weight="900" fill="white">MONTHLY AIR</text>
+  <text x="500" y="515" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="58" font-weight="900" fill="white">PURIFIER CARE LIST</text>
+  <text x="500" y="575" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="500" fill="white" opacity="0.9">Keep your unit running at peak performance</text>
+  <rect x="100" y="630" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="680" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Wipe exterior with damp cloth</text>
+  <rect x="100" y="720" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="770" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Clean air intake vents/slots</text>
+  <rect x="100" y="810" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="860" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Vacuum/wash pre-filter</text>
+  <rect x="100" y="900" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="950" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Check HEPA filter condition</text>
+  <rect x="100" y="990" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="1040" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Inspect power cord & sensor</text>
+  <rect x="100" y="1080" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="1130" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Reset filter indicator if needed</text>
+  <rect x="100" y="1170" width="800" height="75" rx="12" fill="white" opacity="0.15"/>
+  <text x="140" y="1220" font-family="Poppins,Arial,sans-serif" font-size="32" font-weight="600" fill="white">☐  Note maintenance date on calendar</text>
+  <text x="500" y="1330" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white" opacity="0.9">✨  10 minutes a month = years of fresh air!</text>
+  <text x="500" y="1420" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.8">digitalandgear.com</text>
+</svg>

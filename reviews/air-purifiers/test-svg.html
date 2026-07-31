@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SVG Test</title>
+<style>
+  body { font-family: sans-serif; padding: 40px; background: #f5f5f5; }
+  .test-box { background: white; padding: 20px; margin: 20px 0; border-radius: 12px; }
+  svg { display: block; margin: 0 auto; max-width: 400px; height: auto; }
+  .result { color: #10b981; font-weight: bold; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>SVG 图片显示测试</h1>
+<p>如果你能看到下方的绿色空气净化器图标，说明SVG正常工作。</p>
+
+<div class="test-box">
+  <p>测试1: Inline SVG (直接嵌入HTML)</p>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="400" fill="url(#bg)"/>
+    <rect x="120" y="60" width="160" height="280" rx="32" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="140" y="95" width="120" height="150" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <circle cx="200" cy="285" r="12" fill="#22c55e"/>
+    <text x="200" y="365" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#15803d">TEST Air Purifier</text>
+  </svg>
+  <p class="result">↑ 上面应该显示一个白色空气净化器图标（绿色背景）</p>
+</div>
+
+<div class="test-box">
+  <p>测试2: JPG外部图片</p>
+  <img src="../../images/air-purifiers/coway-airmega.jpg" alt="Coway Airmega" width="400" height="400" style="display:block;margin:0 auto;">
+  <p class="result">↑ 上面应该显示Coway Airmega图片</p>
+</div>
+
+<div class="test-box">
+  <p>测试3: SVG外部文件引用</p>
+  <img src="../../images/air-purifiers/levoit-core300.svg" alt="Levoit Core 300" width="400" height="400" style="display:block;margin:0 auto;" onerror="this.style.background='#fee';this.alt='外部SVG图片加载失败';">
+  <p class="result">↑ 上面应该显示Levoit Core 300 SVG</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C4A6E"/>
+      <stop offset="100%" style="stop-color:#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1000" height="1500"/>
+  <rect x="60" y="60" width="280" height="50" rx="25" fill="white" opacity="0.15"/>
+  <text x="200" y="93" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="2">ALLERGY SEASON</text>
+  <text x="300" y="420" text-anchor="middle" font-size="160">🤧</text>
+  <text x="500" y="400" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="100" font-weight="900" fill="white" opacity="0.6">→</text>
+  <text x="700" y="420" text-anchor="middle" font-size="160">😌</text>
+  <text x="500" y="590" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="60" font-weight="900" fill="white">ALLERGIES?</text>
+  <text x="500" y="670" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="60" font-weight="900" fill="white">PICK THE RIGHT</text>
+  <text x="500" y="750" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="60" font-weight="900" fill="white">AIR PURIFIER</text>
+  <rect x="80" y="820" width="840" height="75" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="868" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="white">✅  TRUE HEPA filter — non-negotiable</text>
+  <rect x="80" y="915" width="840" height="75" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="963" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="white">✅  CADR rated for pollen/dust/smoke</text>
+  <rect x="80" y="1010" width="840" height="75" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="1058" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="white">✅  Activated carbon for VOCs & odors</text>
+  <rect x="80" y="1105" width="840" height="75" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="1153" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="white">✅  Appropriate size for your room</text>
+  <rect x="80" y="1200" width="840" height="75" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="1248" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="white">✅  24/7 runtime capability</text>
+  <text x="500" y="1340" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white" opacity="0.9">🌸  Breathe easier this allergy season!</text>
+  <text x="500" y="1420" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.7">digitalandgear.com</text>
+</svg>

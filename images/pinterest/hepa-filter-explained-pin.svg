@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#164E63"/>
+      <stop offset="100%" style="stop-color:#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1000" height="1500"/>
+  <rect x="60" y="60" width="310" height="50" rx="25" fill="white" opacity="0.15"/>
+  <text x="215" y="93" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="2">HEPA FILTER GUIDE</text>
+  <circle cx="500" cy="420" r="140" fill="white" opacity="0.15"/>
+  <text x="500" y="470" text-anchor="middle" font-size="150">🔬</text>
+  <text x="500" y="660" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="64" font-weight="900" fill="white">WHAT IS A</text>
+  <text x="500" y="740" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="64" font-weight="900" fill="white">TRUE HEPA FILTER?</text>
+  <rect x="80" y="820" width="840" height="80" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="870" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white">✓  Removes 99.97% of particles ≥ 0.3μm</text>
+  <rect x="80" y="920" width="840" height="80" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="970" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white">✓  Catches pollen, dust, mold spores</text>
+  <rect x="80" y="1020" width="840" height="80" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="1070" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white">✓  Traps bacteria & virus carriers</text>
+  <rect x="80" y="1120" width="840" height="80" rx="15" fill="white" opacity="0.12"/>
+  <text x="120" y="1170" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white">✓  Certified standard — not a marketing term</text>
+  <text x="500" y="1280" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white" opacity="0.9">⚠  Avoid "HEPA-Type" or "HEPA-Like" — not certified!</text>
+  <text x="500" y="1420" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.7">digitalandgear.com</text>
+</svg>

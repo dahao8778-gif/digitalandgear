@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="wallPet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf2e9"/>
+      <stop offset="100%" stop-color="#f0d9bf"/>
+    </linearGradient>
+    <linearGradient id="floorPet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c99e7a"/>
+      <stop offset="100%" stop-color="#a97853"/>
+    </linearGradient>
+    <linearGradient id="sofaPet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="textBgPet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350f" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#431407" stop-opacity="0.99"/>
+    </linearGradient>
+  </defs>
+
+  <!-- WALL -->
+  <rect x="0" y="0" width="1000" height="790" fill="url(#wallPet)"/>
+  <rect x="0" y="790" width="1000" height="14" fill="#fffaf0" opacity="0.5"/>
+
+  <!-- PET PHOTO WALL GALLERY -->
+  <rect x="90" y="130" width="180" height="160" rx="5" fill="white" stroke="#fbbf24" stroke-width="5"/>
+  <rect x="105" y="145" width="150" height="130" rx="2" fill="#d8b48c"/>
+  <!-- dog silhouette in frame -->
+  <ellipse cx="155" cy="250" rx="32" ry="22" fill="#78350f"/>
+  <path d="M180 235 Q195 232 198 248 L185 248 Z" fill="#78350f"/>
+  <circle cx="147" cy="246" r="2.5" fill="#1c1917"/>
+  <path d="M142 256 Q155 264 168 256" fill="none" stroke="#1c1917" stroke-width="1.5" stroke-linecap="round"/>
+
+  <rect x="320" y="100" width="170" height="150" rx="5" fill="white" stroke="#fb923c" stroke-width="5"/>
+  <rect x="332" y="112" width="146" height="126" rx="2" fill="#c7d2fe"/>
+  <!-- cat silhouette in frame -->
+  <ellipse cx="405" cy="210" rx="26" ry="18" fill="#312e81"/>
+  <polygon points="385,198 393,178 400,195" fill="#312e81"/>
+  <polygon points="425,198 418,178 412,195" fill="#312e81"/>
+  <circle cx="398" cy="207" r="2" fill="#fbbf24"/>
+  <circle cx="413" cy="207" r="2" fill="#fbbf24"/>
+  <path d="M392 218 L400 220 L405 218 L413 220 L418 218" fill="none" stroke="#fbbf24" stroke-width="1.2"/>
+
+  <rect x="550" y="130" width="160" height="150" rx="5" fill="white" stroke="#f97316" stroke-width="5"/>
+  <rect x="562" y="142" width="136" height="126" rx="2" fill="#fecaca"/>
+  <!-- paw print in frame -->
+  <g fill="#b91c1c">
+    <ellipse cx="630" cy="230" rx="22" ry="18"/>
+    <ellipse cx="600" cy="205" rx="7" ry="9"/>
+    <ellipse cx="620" cy="192" rx="7" ry="10"/>
+    <ellipse cx="640" cy="192" rx="7" ry="10"/>
+    <ellipse cx="660" cy="205" rx="7" ry="9"/>
+  </g>
+
+  <rect x="770" y="110" width="160" height="160" rx="5" fill="white" stroke="#ea580c" stroke-width="5"/>
+  <rect x="782" y="122" width="136" height="136" rx="2" fill="#bbf7d0"/>
+  <!-- fish/bowl -->
+  <ellipse cx="850" cy="230" rx="40" ry="10" fill="#059669" opacity="0.7"/>
+  <ellipse cx="850" cy="190" rx="40" ry="38" fill="#7dd3fc"/>
+  <ellipse cx="850" cy="228" rx="36" ry="6" fill="#0ea5e9" opacity="0.7"/>
+  <path d="M835 190 Q850 197 865 190 Q850 205 835 190" fill="#f59e0b"/>
+  <circle cx="860" cy="189" r="1.5" fill="#1c1917"/>
+  <path d="M828 190 L818 184 L820 196 Z" fill="#f59e0b"/>
+
+  <!-- WALL PAW PRINT DECALS -->
+  <g fill="#fb923c" opacity="0.35" transform="rotate(-12 500 380)">
+    <ellipse cx="420" cy="380" rx="18" ry="14"/>
+    <ellipse cx="395" cy="362" rx="5.5" ry="7"/>
+    <ellipse cx="412" cy="351" rx="5.5" ry="7.5"/>
+    <ellipse cx="429" cy="351" rx="5.5" ry="7.5"/>
+    <ellipse cx="446" cy="362" rx="5.5" ry="7"/>
+  </g>
+  <g fill="#fb923c" opacity="0.28" transform="rotate(18 500 470)">
+    <ellipse cx="580" cy="470" rx="20" ry="16"/>
+    <ellipse cx="553" cy="450" rx="6" ry="8"/>
+    <ellipse cx="571" cy="439" rx="6" ry="8.5"/>
+    <ellipse cx="590" cy="439" rx="6" ry="8.5"/>
+    <ellipse cx="607" cy="450" rx="6" ry="8"/>
+  </g>
+
+  <!-- FLOOR -->
+  <rect x="0" y="804" width="1000" height="246" fill="url(#floorPet)"/>
+  <g stroke="#8b5a33" stroke-width="1.2" opacity="0.3">
+    <line x1="0" y1="880" x2="1000" y2="880"/>
+    <line x1="0" y1="960" x2="1000" y2="960"/>
+    <line x1="0" y1="1030" x2="1000" y2="1030"/>
+  </g>
+
+  <!-- RUG (cream shaggy) -->
+  <ellipse cx="480" cy="1000" rx="420" ry="85" fill="#fef3c7" opacity="0.9"/>
+  <ellipse cx="480" cy="1000" rx="380" ry="60" fill="#fde68a" opacity="0.7"/>
+
+  <!-- DOG (golden retriever style) on rug - LEFT -->
+  <!-- body -->
+  <ellipse cx="230" cy="930" rx="120" ry="55" fill="#d97706"/>
+  <!-- head -->
+  <circle cx="140" cy="885" r="48" fill="#d97706"/>
+  <!-- snout -->
+  <ellipse cx="110" cy="895" rx="28" ry="20" fill="#fbbf24"/>
+  <!-- nose -->
+  <circle cx="96" cy="890" r="6" fill="#1c1917"/>
+  <!-- eyes -->
+  <circle cx="135" cy="876" r="4.5" fill="#1c1917"/>
+  <circle cx="158" cy="876" r="4.5" fill="#1c1917"/>
+  <!-- ears -->
+  <path d="M100 855 Q90 820 115 835 Q125 845 120 860 Z" fill="#b45309"/>
+  <path d="M180 855 Q190 820 165 835 Q155 845 160 860 Z" fill="#b45309"/>
+  <!-- tail -->
+  <path d="M350 900 Q400 870 395 920" fill="none" stroke="#d97706" stroke-width="20" stroke-linecap="round"/>
+  <!-- legs -->
+  <rect x="160" y="968" width="20" height="40" rx="6" fill="#b45309"/>
+  <rect x="200" y="970" width="20" height="38" rx="6" fill="#b45309"/>
+  <rect x="260" y="970" width="20" height="38" rx="6" fill="#b45309"/>
+  <rect x="300" y="968" width="20" height="40" rx="6" fill="#b45309"/>
+  <!-- dog bed under -->
+  <ellipse cx="230" cy="1008" rx="150" ry="20" fill="#92400e" opacity="0.6"/>
+  <path d="M80 970 Q230 940 380 970 L380 1008 Q230 1030 80 1008 Z" fill="#b45309" opacity="0.7"/>
+  <path d="M100 978 Q230 955 360 978 Q360 990 230 998 Q100 990 100 978" fill="#f59e0b"/>
+  <!-- PET TOYS near dog -->
+  <circle cx="60" cy="990" r="12" fill="#dc2626"/>
+  <path d="M50 990 Q60 975 70 990" fill="none" stroke="#fca5a5" stroke-width="1.5"/>
+  <!-- rope bone -->
+  <rect x="40" y="1010" width="48" height="10" rx="5" fill="#eab308"/>
+  <path d="M40 1015 L32 1008 L32 1022 Z" fill="#ca8a04"/>
+  <path d="M88 1015 L96 1008 L96 1022 Z" fill="#ca8a04"/>
+
+  <!-- CAT on sofa (RIGHT) -->
+  <!-- sofa -->
+  <rect x="660" y="730" width="300" height="220" rx="18" fill="#fde68a"/>
+  <rect x="655" y="700" width="310" height="80" rx="20" fill="#fbbf24"/>
+  <rect x="640" y="740" width="36" height="200" rx="18" fill="#f59e0b"/>
+  <rect x="944" y="740" width="36" height="200" rx="18" fill="#f59e0b"/>
+  <!-- cushion -->
+  <rect x="690" y="740" width="240" height="110" rx="12" fill="#fef3c7"/>
+  <!-- CAT (gray tabby) -->
+  <ellipse cx="790" cy="800" rx="80" ry="40" fill="#8b7355"/>
+  <!-- stripes -->
+  <g stroke="#5f4a33" stroke-width="3" opacity="0.7" stroke-linecap="round">
+    <path d="M750 780 Q760 770 770 780"/>
+    <path d="M785 775 Q795 765 805 775"/>
+    <path d="M820 780 Q830 770 840 780"/>
+  </g>
+  <!-- head -->
+  <circle cx="865" cy="780" r="34" fill="#8b7355"/>
+  <!-- ears -->
+  <polygon points="840,758 850,728 865,750" fill="#8b7355"/>
+  <polygon points="890,758 880,728 865,750" fill="#8b7355"/>
+  <polygon points="844,753 850,738 860,748" fill="#fecaca"/>
+  <polygon points="886,753 880,738 870,748" fill="#fecaca"/>
+  <!-- eyes -->
+  <g fill="#059669">
+    <ellipse cx="855" cy="778" rx="4" ry="6"/>
+    <ellipse cx="878" cy="778" rx="4" ry="6"/>
+  </g>
+  <g fill="white"><circle cx="856" cy="776" r="1.5"/><circle cx="879" cy="776" r="1.5"/></g>
+  <!-- nose -->
+  <path d="M864 788 L869 792 L874 788 Z" fill="#1c1917"/>
+  <!-- whiskers -->
+  <g stroke="#1c1917" stroke-width="1">
+    <line x1="850" y1="794" x2="828" y2="792"/>
+    <line x1="850" y1="798" x2="828" y2="800"/>
+    <line x1="888" y1="794" x2="910" y2="792"/>
+    <line x1="888" y1="798" x2="910" y2="800"/>
+  </g>
+  <!-- tail -->
+  <path d="M710 795 Q680 775 690 730 Q700 750 720 780" fill="none" stroke="#8b7355" stroke-width="16" stroke-linecap="round"/>
+  <!-- paws hanging -->
+  <ellipse cx="740" cy="845" rx="14" ry="8" fill="#5f4a33"/>
+  <ellipse cx="775" cy="845" rx="14" ry="8" fill="#5f4a33"/>
+  <!-- cat toy -->
+  <rect x="670" y="860" width="50" height="12" rx="6" fill="#e5e7eb"/>
+  <circle cx="658" cy="866" r="10" fill="#ef4444"/>
+  <path d="M650 862 L642 858 M650 870 L640 874" stroke="#b91c1c" stroke-width="1.5"/>
+
+  <!-- AIR PURIFIER - center between dog and sofa -->
+  <rect x="460" y="720" width="170" height="290" rx="18" fill="#ffffff" stroke="#d7dce3" stroke-width="2"/>
+  <!-- WASHABLE FILTER badge -->
+  <rect x="476" y="734" width="86" height="28" rx="14" fill="#ea580c"/>
+  <text x="519" y="753" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="white">PET MODE</text>
+  <!-- pre-filter (washable) -->
+  <rect x="476" y="775" width="138" height="32" rx="6" fill="#fef3c7"/>
+  <!-- HEPA -->
+  <rect x="476" y="818" width="138" height="32" rx="6" fill="#d1fae5"/>
+  <!-- activated carbon -->
+  <rect x="476" y="861" width="138" height="32" rx="6" fill="#d6d3d1"/>
+  <!-- label -->
+  <text x="545" y="796" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#92400e">Washable Pre-Filter</text>
+  <text x="545" y="839" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#065f46">HEPA · Catches Fur</text>
+  <text x="545" y="882" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#44403c">Carbon · Odor Lock</text>
+  <!-- air intake -->
+  <g stroke="#9ca3af" stroke-width="1.2" opacity="0.85">
+    <line x1="476" y1="920" x2="614" y2="920"/>
+    <line x1="476" y1="931" x2="614" y2="931"/>
+    <line x1="476" y1="942" x2="614" y2="942"/>
+    <line x1="476" y1="953" x2="614" y2="953"/>
+    <line x1="476" y1="964" x2="614" y2="964"/>
+    <line x1="476" y1="975" x2="614" y2="975"/>
+  </g>
+  <!-- top -->
+  <ellipse cx="545" cy="722" rx="70" ry="10" fill="#e5e7eb"/>
+  <circle cx="545" cy="721" r="7" fill="#ea580c"/>
+  <!-- PET HAIR PARTICLES being pulled into purifier -->
+  <g fill="#a8a29e" opacity="0.6">
+    <!-- incoming from dog -->
+    <circle cx="455" cy="860" r="2"/>
+    <circle cx="448" cy="890" r="1.6"/>
+    <circle cx="440" cy="920" r="2.2"/>
+    <ellipse cx="435" cy="875" rx="2.5" ry="1"/>
+    <ellipse cx="420" cy="900" rx="2" ry="0.8"/>
+    <!-- incoming from cat -->
+    <circle cx="640" cy="820" r="2"/>
+    <circle cx="630" cy="850" r="1.8"/>
+    <circle cx="622" cy="880" r="2.1"/>
+    <ellipse cx="650" cy="865" rx="2.2" ry="1"/>
+  </g>
+  <!-- FRESH AIR output going to pets -->
+  <g fill="none" stroke="#fb923c" stroke-width="2.8" stroke-linecap="round" opacity="0.85">
+    <path d="M458 780 Q350 780 260 810"/>
+    <path d="M458 810 Q350 820 260 860"/>
+    <path d="M612 780 Q720 775 760 790"/>
+  </g>
+  <!-- pet odor molecules (stinky brown) being sucked in -->
+  <g fill="#78350f" opacity="0.4">
+    <circle cx="445" cy="820" r="3"/>
+    <circle cx="450" cy="775" r="2.4"/>
+    <circle cx="625" cy="800" r="2.8"/>
+  </g>
+
+  <!-- scene shadow -->
+  <rect x="0" y="1050" width="1000" height="30" fill="black" opacity="0.08"/>
+
+  <!-- ============= TEXT BAND 30% ============= -->
+  <rect x="0" y="1050" width="1000" height="450" fill="url(#textBgPet)"/>
+
+  <!-- pill -->
+  <rect x="320" y="1098" width="360" height="36" rx="18" fill="#fb923c"/>
+  <text x="500" y="1122" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="14" font-weight="800" fill="#431407" letter-spacing="2.2">DOGS · CATS · MULTI-PET HOUSEHOLD</text>
+
+  <text x="500" y="1210" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="58" font-weight="800" fill="#ffffff">Best Air Purifier</text>
+  <text x="500" y="1282" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="60" font-weight="800" fill="#fdba74">For Pets</text>
+  <text x="500" y="1330" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="24" font-weight="500" fill="#fed7aa">Pet Hair · Dander · Litter Odor · 100% Eliminated</text>
+
+  <!-- 3 feature chips -->
+  <g font-family="Poppins,Arial,sans-serif" font-weight="600" fill="#ffedd5">
+    <rect x="65" y="1362" width="270" height="54" rx="14" fill="#ffffff" opacity="0.09"/>
+    <text x="200" y="1385" text-anchor="middle" font-size="14" fill="#fdba74">🐾 Pet Hair Trap</text>
+    <text x="200" y="1406" text-anchor="middle" font-size="14">Washable Pre-Filter · Saves $$$</text>
+
+    <rect x="365" y="1362" width="270" height="54" rx="14" fill="#ffffff" opacity="0.09"/>
+    <text x="500" y="1385" text-anchor="middle" font-size="14" fill="#fdba74">💩 Odor Destroy</text>
+    <text x="500" y="1406" text-anchor="middle" font-size="14">5× Carbon · Litter/Food Smell</text>
+
+    <rect x="665" y="1362" width="270" height="54" rx="14" fill="#ffffff" opacity="0.09"/>
+    <text x="800" y="1385" text-anchor="middle" font-size="14" fill="#fdba74">🔄 Pet Auto Mode</text>
+    <text x="800" y="1406" text-anchor="middle" font-size="14">Air-Quality Sensor Auto-Speed</text>
+  </g>
+
+  <!-- CTA -->
+  <rect x="310" y="1433" width="380" height="50" rx="25" fill="#ea580c"/>
+  <text x="500" y="1465" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="18" font-weight="800" fill="#ffffff">See Pet-Friendly Top 5 →</text>
+
+  <text x="500" y="1493" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="14" font-weight="600" fill="#fed7aa" opacity="0.85">digitalandgear.com</text>
+</svg>

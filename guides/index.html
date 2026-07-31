@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buying Guides - Digital & Gear</title>
-  <meta name="description" content="Expert buying guides to help you choose the right products for your needs.">
+  <meta name="description" content="Expert buying guides to help you choose the right products for your needs. Step-by-step guidance across every technology category.">
   <link rel="canonical" href="https://digitalandgear.com/guides/">
   <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
   <link rel="apple-touch-icon" href="../images/favicon.svg">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/components.css">
   <meta property="og:title" content="Buying Guides - Digital & Gear">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://digitalandgear.com/guides/">
@@ -20,22 +21,37 @@
     "url": "https://digitalandgear.com/guides/"
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://digitalandgear.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Buying Guides"}
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a href="../index.html" class="logo">Digital <span>&</span> Gear</a>
       <nav>
-        <a href="../index.html">Home</a>
+        <a href="../reviews/index.html">Reviews</a>
+        <a href="index.html">Buying Guides</a>
         <div class="nav-dropdown">
           <a href="../categories/index.html">Categories ▾</a>
           <span class="dropdown-menu">
-            <a href="../categories/air-purifiers/index.html">Air Purifiers</a>
-            
+            <a href="../categories/air-purifiers/index.html">🌬 Air Purifiers</a>
+            <a href="../categories/robot-vacuums/index.html">🤖 Robot Vacuums</a>
+            <a href="../categories/smart-home/index.html">🏠 Smart Home</a>
+            <a href="../categories/audio/index.html">🎧 Audio</a>
+            <a href="../categories/computers/index.html">💻 Computers</a>
+            <a href="../categories/home-appliances/index.html">☕ Home Appliances</a>
+            <a href="../categories/index.html" class="dropdown-view-all">View All Categories →</a>
           </span>
         </div>
-        <a href="../reviews/index.html">Reviews</a>
-        <a href="index.html">Guides</a>
+        <a href="../how-we-test.html">How We Test</a>
         <a href="../about.html">About</a>
       </nav>
       <div class="hamburger" id="hamburger" aria-label="Menu">
@@ -48,20 +64,60 @@
     <section class="article-hero">
       <div class="hero-content">
         <h1>Buying & Selection Guides</h1>
-        <p>Learn how to compare products and make smarter purchasing decisions.</p>
+        <p>Learn how to compare products and make smarter purchasing decisions with our step-by-step guides.</p>
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="content-section" style="padding:60px 0;">
       <div class="container">
-        <h2 style="font-size:28px;margin-bottom:24px;">Air Purifier Guides</h2>
-        <div class="card-grid" style="grid-template-columns: repeat(auto-fill,minmax(280px,1fr));gap:24px;">
-          <div class="card" style="border:1px solid #e5e7eb;border-radius:12px;padding:24px;background:white;">
-            <h3 style="font-size:20px;margin-bottom:8px;">How To Choose An Air Purifier</h3>
-            <p style="color:#6b7280;margin-bottom:16px;">A complete 2026 buying guide covering room size, filtration types and key features.</p>
-            <a href="air-purifiers/how-to-choose-air-purifier.html" style="color:#2563eb;font-weight:600;text-decoration:none;">Read Guide →</a>
+
+        <h2 style="font-size:28px;margin:0 0 8px;color:#0f172a;">🌬 Air Purifier Guides</h2>
+        <p style="color:#64748b;margin:0 0 28px;">Essential reading before you buy your next air purifier.</p>
+
+        <div class="guides-grid" style="margin-bottom:48px;">
+          <a href="air-purifiers/how-to-choose-air-purifier.html" style="display:block;background:white;border-radius:16px;padding:26px;text-decoration:none;color:inherit;border:1px solid #e2e8f0;transition:all 0.3s ease;">
+            <div style="font-size:28px;margin-bottom:10px;">🔍</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">How To Choose An Air Purifier</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">CADR, HEPA types, room sizing, and budget �?the 7 factors that matter most.</p>
+          </a>
+          <a href="air-purifiers/best-air-purifier-bedroom.html" style="display:block;background:white;border-radius:16px;padding:26px;text-decoration:none;color:inherit;border:1px solid #e2e8f0;transition:all 0.3s ease;">
+            <div style="font-size:28px;margin-bottom:10px;">🛏</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">Bedroom Air Purifier Guide</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">Quiet operation, placement tips, and 2026 picks for cleaner sleep.</p>
+          </a>
+          <a href="air-purifiers/air-purifier-vs-humidifier.html" style="display:block;background:white;border-radius:16px;padding:26px;text-decoration:none;color:inherit;border:1px solid #e2e8f0;transition:all 0.3s ease;">
+            <div style="font-size:28px;margin-bottom:10px;">💨 VS 💧</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">Air Purifier vs Humidifier</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">Which one do you actually need? When to use each, and whether both help.</p>
+          </a>
+          <a href="air-purifiers/how-often-change-filter.html" style="display:block;background:white;border-radius:16px;padding:26px;text-decoration:none;color:inherit;border:1px solid #e2e8f0;transition:all 0.3s ease;">
+            <div style="font-size:28px;margin-bottom:10px;">🔄</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">How Often To Change Filters</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">HEPA, pre-filter, and carbon filter lifespans by brand and usage.</p>
+          </a>
+        </div>
+
+        <h2 style="font-size:24px;margin:0 0 8px;color:#0f172a;">Coming Soon Guides</h2>
+        <p style="color:#64748b;margin:0 0 28px;">New buying guides across additional categories are on the way.</p>
+
+        <div class="guides-grid">
+          <div style="display:block;background:#f8fafc;border-radius:16px;padding:26px;border:1px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:28px;margin-bottom:10px;">🏠</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">Best Smart Home Devices</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">🔜 Coming soon</p>
+          </div>
+          <div style="display:block;background:#f8fafc;border-radius:16px;padding:26px;border:1px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:28px;margin-bottom:10px;">🤖</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">Robot Vacuum Buying Guide</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">🔜 Coming soon</p>
+          </div>
+          <div style="display:block;background:#f8fafc;border-radius:16px;padding:26px;border:1px solid #e2e8f0;opacity:0.8;">
+            <div style="font-size:28px;margin-bottom:10px;">🎧</div>
+            <h3 style="font-size:18px;margin:0 0 8px;color:#1f2937;font-weight:700;">Wireless Headphone Guide</h3>
+            <p style="font-size:14px;color:#64748b;margin:0;">🔜 Coming soon</p>
           </div>
         </div>
+
       </div>
     </section>
   </main>
@@ -71,7 +127,7 @@
       <div class="footer-container">
         <div>
           <h3>Digital <span>&</span> Gear</h3>
-          <p>Helping shoppers make better buying decisions through independent product testing.</p>
+          <p>Helping shoppers make better buying decisions through independent product evaluation, data-driven analysis, and honest, no-nonsense reviews.</p>
         </div>
         <div>
           <h4>Explore</h4>
@@ -82,8 +138,16 @@
         <div>
           <h4>Company</h4>
           <a href="../about.html">About Us</a>
+          <a href="../how-we-test.html">How We Test</a>
+          <a href="../editorial-policy.html">Editorial Policy</a>
           <a href="../contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
           <a href="../privacy.html">Privacy Policy</a>
+          <a href="../affiliate-disclosure.html">Affiliate Disclosure</a>
+
+<a href="../advertising-disclosure.html">Advertising Disclosure</a>
         </div>
       </div>
       <p class="copyright">© 2026 Digital & Gear. All rights reserved.</p>

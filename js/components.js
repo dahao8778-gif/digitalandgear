@@ -48,8 +48,15 @@
 
       // Skip hero images (above the fold)
       if (img.classList.contains('hero-image') ||
+          img.classList.contains('review-image') ||
           img.closest('.article-hero') ||
           img.closest('.hero')) {
+        img.setAttribute('data-optimized', 'true');
+        return;
+      }
+
+      // Skip Pinterest / OG images
+      if (img.closest('.og-image-check')) {
         img.setAttribute('data-optimized', 'true');
         return;
       }

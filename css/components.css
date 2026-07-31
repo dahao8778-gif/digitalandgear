@@ -1,0 +1,434 @@
+/* =================================
+   DIGITAL & GEAR COMPONENT STYLE
+   Supplementary to style.css
+   Only defines NEW classes not in style.css
+================================= */
+
+
+/* ================================
+   HERO BUTTONS
+================================ */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.trust-badge {
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--muted);
+}
+
+.trust-badge br + * {
+    font-size: 14px;
+}
+
+
+/* ================================
+   PICKS GRID (Homepage V2)
+================================ */
+
+.picks-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.pick-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+}
+
+
+/* ================================
+   CATEGORIES GRID (Homepage V2)
+================================ */
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.cat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(15, 23, 42, 0.1);
+    border-color: var(--primary);
+}
+
+
+/* ================================
+   LATEST REVIEWS GRID (Homepage V2)
+================================ */
+
+.latest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.latest-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(15, 23, 42, 0.1);
+}
+
+
+/* ================================
+   GUIDES GRID (Homepage V2)
+================================ */
+
+.guides-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.guide-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(15, 23, 42, 0.1);
+}
+
+
+/* ================================
+   TESTING GRID (Homepage V2 - 5 items)
+================================ */
+
+.testing-grid-new {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* ================================
+   TESTING SECTION
+================================ */
+
+.testing-section {
+    padding: 70px 0;
+    background: white;
+    text-align: center;
+}
+
+.testing-section h2 {
+    margin-bottom: 8px;
+}
+
+.testing-section > .container > p {
+    color: var(--muted);
+    margin-bottom: 40px;
+}
+
+
+/* ================================
+   UPDATE SECTION
+================================ */
+
+.update-section {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    color: white;
+    text-align: center;
+}
+
+.update-section h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.update-section p {
+    opacity: 0.9;
+}
+
+
+/* ================================
+   ARTICLE HEADER (Review Template)
+================================ */
+
+.article-header {
+    padding: 60px 0 40px;
+    text-align: center;
+    background: linear-gradient(135deg, #eff6ff, #f0f9ff);
+}
+
+.article-header h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.article-header .intro {
+    font-size: 18px;
+    color: var(--muted);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.pinterest-image {
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+.pinterest-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+}
+
+
+/* ================================
+   WINNER CARD (Review Template)
+================================ */
+
+.winner-card {
+    max-width: 650px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #fff7ed, #ffedd5);
+    border: 2px solid #fed7aa;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(249, 115, 22, 0.15);
+}
+
+.winner-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--orange-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.winner-card .rating {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+
+/* ================================
+   DISCLOSURE
+================================ */
+
+.disclosure {
+    font-size: 14px;
+    padding: 20px 0;
+    color: var(--muted);
+    text-align: center;
+}
+
+
+/* ================================
+   SECTION PADDING OVERRIDES
+================================ */
+
+.picks-section,
+.categories-section,
+.latest-reviews-section,
+.guides-section,
+.testing-section {
+    padding: 80px 0;
+}
+
+
+/* ================================
+   DISABLED LINKS
+================================ */
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.7;
+}
+
+.nav-dropdown .dropdown-menu a.disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}
+
+
+/* ================================
+   AFFILIATE: READ REVIEW BUTTON
+================================ */
+
+.read-review-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 13px;
+    background: #eff6ff;
+    color: #1e40af;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.read-review-btn:hover {
+    background: #dbeafe;
+    transform: translateY(-1px);
+}
+
+
+/* ================================
+   AFFILIATE: SECONDARY CTA (soft Amazon)
+================================ */
+
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    background: #f8fafc;
+    color: #475569;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    min-height: 48px;
+    transition: all 0.2s ease;
+}
+
+.secondary-btn:hover {
+    background: #e2e8f0;
+    color: var(--dark);
+    border-color: #94a3b8;
+}
+
+
+/* ================================
+   AFFILIATE: PRODUCT REVIEW CARD
+================================ */
+
+.review-product-card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 32px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-light);
+    margin-bottom: 28px;
+    transition: all 0.3s ease;
+}
+
+.review-product-card:hover {
+    box-shadow: var(--shadow-lg);
+}
+
+.review-product-card .product-image {
+    width: 100%;
+    max-width: 280px;
+    height: 220px;
+    object-fit: contain;
+    margin: 0 auto 20px;
+}
+
+.review-product-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.review-product-card .best-for-tag {
+    display: inline-block;
+    padding: 6px 14px;
+    background: var(--border-light);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.review-product-card .pros-cons-mini {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.review-product-card .pros-cons-mini .col {
+    padding: 14px;
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+}
+
+.review-product-card .pros-cons-mini .pros {
+    background: #f0fdf4;
+    color: var(--green-dark);
+}
+
+.review-product-card .pros-cons-mini .cons {
+    background: #fef2f2;
+    color: #991b1b;
+}
+
+
+/* ================================
+   MOBILE RESPONSIVE
+================================ */
+
+@media (max-width: 1024px) {
+
+    .picks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testing-grid-new {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .picks-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .categories-grid,
+    .latest-grid,
+    .guides-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testing-grid-new {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-table {
+        font-size: 14px;
+    }
+
+    .article-header h1 {
+        font-size: 26px;
+    }
+
+    .winner-card {
+        padding: 24px;
+    }
+
+    .review-product-card {
+        padding: 24px 20px;
+    }
+
+    .review-product-card .pros-cons-mini {
+        grid-template-columns: 1fr;
+    }
+
+    .picks-section,
+    .categories-section,
+    .latest-reviews-section,
+    .guides-section,
+    .testing-section {
+        padding: 50px 0;
+    }
+}
