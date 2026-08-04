@@ -470,6 +470,15 @@
 
     // Scroll to results
     finderResults.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Track quiz_complete event for GA4
+    window.dataLayer = window.dataLayer || [];
+    var topScore = scored.length > 0 ? scored[0].score : 0;
+    window.dataLayer.push({
+      event: 'quiz_complete',
+      result_count: scored.length,
+      top_match_score: topScore
+    });
   }
 
   function buildResultCard(item, badgeText, isRunnerUp) {
