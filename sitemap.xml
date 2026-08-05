@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://digitalandgear.com/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,7 +11,7 @@
   <!-- Category Listing Page -->
   <url>
     <loc>https://digitalandgear.com/categories/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -19,7 +19,7 @@
   <!-- Category Pages -->
   <url>
     <loc>https://digitalandgear.com/categories/air-purifiers/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -27,7 +27,7 @@
   <!-- Review Listing Page -->
   <url>
     <loc>https://digitalandgear.com/reviews/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -35,28 +35,42 @@
   <!-- Review Pages -->
   <url>
     <loc>https://digitalandgear.com/reviews/air-purifiers/best-air-purifiers-2026.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/reviews/air-purifiers/levoit-core-300-review.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/reviews/air-purifiers/coway-ap-1512hh-review.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/reviews/air-purifiers/best-air-purifier-for-pets.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/reviews/air-purifiers/winix-5500-2-review.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/reviews/air-purifiers/blueair-211plus-review.html</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -64,14 +78,14 @@
   <!-- Tools -->
   <url>
     <loc>https://digitalandgear.com/tools/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/tools/air-purifier-finder.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -79,7 +93,7 @@
   <!-- Guide Listing Page -->
   <url>
     <loc>https://digitalandgear.com/guides/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -87,28 +101,28 @@
   <!-- Guide Pages -->
   <url>
     <loc>https://digitalandgear.com/guides/air-purifiers/how-to-choose-air-purifier.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/guides/air-purifiers/best-air-purifier-bedroom.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/guides/air-purifiers/air-purifier-vs-humidifier.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/guides/air-purifiers/how-often-change-filter.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -116,49 +130,49 @@
   <!-- Company & Policy Pages -->
   <url>
     <loc>https://digitalandgear.com/about.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/contact.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/privacy.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/affiliate-disclosure.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/how-we-test.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/editorial-guidelines.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://digitalandgear.com/editorial-policy.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
