@@ -54,8 +54,6 @@ document.addEventListener('DOMContentLoaded', function () {
   amazonButtons.forEach(function (button) {
     button.addEventListener('click', function () {
       const link = this.href || this.closest('a').href;
-      console.log('Amazon affiliate click:', link);
-
       // Analytics hook (uncomment & configure when needed):
       // if (typeof gtag !== 'undefined') {
       //   gtag('event', 'affiliate_click', {
@@ -231,7 +229,6 @@ document.addEventListener('DOMContentLoaded', function () {
         );
       }
 
-      console.log(`Share click: ${type}`);
     });
   });
 
@@ -343,17 +340,5 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   })();
-
-  // =========================
-  // 13. Console welcome message
-  // =========================
-  console.log(
-    '%c 🌬 Digital & Gear — Best Air Purifiers 2026',
-    'background: linear-gradient(135deg,#1e40af,#3b82f6);color:white;padding:10px 20px;border-radius:8px;font-size:14px;font-weight:bold;'
-  );
-  console.log(
-    '%c Want to work together? dahao8778@gmail.com',
-    'color: #64748b; font-size: 12px;'
-  );
 
 });

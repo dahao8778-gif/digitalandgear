@@ -23,7 +23,7 @@
       '<div class="container">' +
       '<span class="disclosure-icon">⚠️</span>' +
       '<span class="disclosure-text">' +
-      'As an Amazon Associate we earn from qualifying purchases. Prices and availability are accurate at the time of publication and subject to change.' +
+      'Digital &amp; Gear is reader-supported. As an Amazon Associate, we earn from qualifying purchases.' +
       '</span>' +
       '</div>' +
       '</div>';
