@@ -1,0 +1,25 @@
+# Cloudflare Pages redirects for digitalandgear.com
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Format: <source> <destination> <status>
+# Status: 301 (permanent), 302 (temporary). We use 301 for all SEO-friendly redirects.
+
+# 1. Force HTTPS (HTTP -> HTTPS)
+# Cloudflare's "Always Use HTTPS" toggle in the dashboard already does this,
+# but adding it here as a belt-and-suspenders backup.
+http://digitalandgear.com/*  https://digitalandgear.com/:splat  301
+http://www.digitalandgear.com/*  https://digitalandgear.com/:splat  301
+
+# 2. Force non-www (www -> apex domain)
+https://www.digitalandgear.com/*  https://digitalandgear.com/:splat  301
+
+# 3. Strip /index.html from homepage
+/index.html  /  301
+
+# 4. Handle trailing-slash variants of important pages.
+# Cloudflare Pages would auto-redirect them to the .html version, but
+# Google Search Console flagged these as "Page with redirect" because the
+# redirect happened at fetch time. Declaring them explicitly here gives
+# Google a clean 301 it can follow in one hop.
+/guides/air-purifiers/best-air-purifier-bedroom/          /guides/air-purifiers/best-air-purifier-bedroom.html          301
+/reviews/air-purifiers/levoit-core-300-review/           /reviews/air-purifiers/levoit-core-300-review.html           301
