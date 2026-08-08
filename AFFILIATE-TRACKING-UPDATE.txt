@@ -1,0 +1,23 @@
+Digital & Gear Affiliate Tracking Update
+
+Implemented:
+1. Added js/affiliate-tracking.js.
+2. Loaded the tracking script on all 38 HTML pages.
+3. Pinterest is detected by:
+   - utm_source=pinterest (or pin/pinterest.com/pin.it)
+   - Pinterest/pin.it referrer
+4. Pinterest source is retained for the current browser session with sessionStorage.
+5. Pinterest visitors use Amazon Associates Tracking ID:
+   digitalgearpin-20
+6. All other visitors continue using:
+   dahao8778-20
+7. Amazon links are rewritten client-side, including dynamically generated links in js/purifier-finder.js.
+8. Existing HTML Amazon links were NOT replaced in source, so the default tracking ID remains intact for non-Pinterest traffic.
+9. Existing 19 Pinterest Pins do not need to be deleted/recreated. For future Pins, use a destination URL with UTM parameters, e.g.:
+   ?utm_source=pinterest&utm_medium=organic&utm_campaign=air_purifier_finder
+
+Important:
+- Deploy the complete digitalandgear.com folder.
+- After deployment, test a Pinterest-style URL with utm_source=pinterest and click an Amazon CTA.
+- The Amazon destination should contain tag=digitalgearpin-20.
+- Normal/direct/Google visits should retain tag=dahao8778-20.
