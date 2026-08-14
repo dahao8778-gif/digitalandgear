@@ -23,3 +23,12 @@ https://www.digitalandgear.com/*  https://digitalandgear.com/:splat  301
 # Google a clean 301 it can follow in one hop.
 /guides/air-purifiers/best-air-purifier-bedroom/          /guides/air-purifiers/best-air-purifier-bedroom.html          301
 /reviews/air-purifiers/levoit-core-300-review/           /reviews/air-purifiers/levoit-core-300-review.html           301
+
+# 5. Removed "Coming Soon" empty categories -> redirect to Air Purifiers
+# (Directories deleted 2026-08-13; keeping 301 so old URLs don't 404 and
+# any accumulated link equity flows to the live category.)
+/categories/audio/*            /categories/air-purifiers/  301
+/categories/computers/*        /categories/air-purifiers/  301
+/categories/home-appliances/*  /categories/air-purifiers/  301
+/categories/robot-vacuums/*    /categories/air-purifiers/  301
+/categories/smart-home/*       /categories/air-purifiers/  301

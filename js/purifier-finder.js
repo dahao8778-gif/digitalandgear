@@ -461,7 +461,7 @@
           '<h3 style="font-size:16px;color:#0c4a6e;margin:0 0 10px;">Why we recommended these</h3>' +
           '<p style="font-size:14px;color:#075985;line-height:1.7;margin:0;">' +
             'Our matching algorithm weighs room size (30%), allergy severity (30%), budget fit (30%), and smart features (10%). ' +
-            'Each recommendation is cross-referenced with our hands-on testing data and verified customer feedback from our ' +
+            'Each recommendation is cross-referenced with manufacturer specifications, certification data and verified customer feedback from our ' +
             '<a href="../reviews/air-purifiers/best-air-purifiers-2026.html" style="color:#0284c7;font-weight:600;">2026 comparison of 10 models</a>. ' +
             'We never accept paid placements — rankings are based solely on performance, value, and fit for your needs.' +
           '</p>' +

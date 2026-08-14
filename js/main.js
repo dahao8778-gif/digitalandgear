@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var span = document.createElement('span');
         span.className = link.className;
         span.innerHTML = link.innerHTML;
-        span.setAttribute('title', 'Coming Soon — Content under development');
+        span.setAttribute('title', 'Content under development');
         span.style.cursor = 'not-allowed';
         span.style.opacity = '0.6';
         if (link.parentNode) {

@@ -1,0 +1,11 @@
+# Local project data — never deploy
+.workbuddy/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp

@@ -194,7 +194,7 @@
 
     <rect x="370" y="1365" width="260" height="52" rx="14" fill="#ffffff" opacity="0.09"/>
     <text x="500" y="1387" text-anchor="middle" font-size="14" fill="#6ee7b7">🤧 Allergy Certified</text>
-    <text x="500" y="1407" text-anchor="middle" font-size="14">AAFA / AHAM Lab Verified</text>
+    <text x="500" y="1407" text-anchor="middle" font-size="14">AAFA / AHAM Certified</text>
 
     <rect x="670" y="1365" width="260" height="52" rx="14" fill="#ffffff" opacity="0.09"/>
     <text x="800" y="1387" text-anchor="middle" font-size="14" fill="#6ee7b7">🧼 Mold & Smoke</text>

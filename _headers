@@ -1,0 +1,6 @@
+# Block search engines from indexing local project data if it ever gets deployed
+/.workbuddy/*
+  X-Robots-Tag: noindex, nofollow
+
+/.workbuddy
+  X-Robots-Tag: noindex, nofollow

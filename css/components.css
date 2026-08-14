@@ -770,6 +770,15 @@
     font-weight: 600;
     width: 40%;
 }
+.table-note {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 10px 0 0;
+}
+.table-note a {
+    color: var(--orange, #ea580c);
+    text-decoration: underline;
+}
 
 
 /* ================================

@@ -4,13 +4,6 @@
 User-agent: *
 Allow: /
 
-# Block Coming Soon category pages (no real content yet)
-Disallow: /categories/robot-vacuums/
-Disallow: /categories/smart-home/
-Disallow: /categories/audio/
-Disallow: /categories/computers/
-Disallow: /categories/home-appliances/
-
 # Sitemap location
 Sitemap: https://digitalandgear.com/sitemap.xml
 
