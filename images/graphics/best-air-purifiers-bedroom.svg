@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="wallBed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6eef7"/>
+      <stop offset="100%" stop-color="#c9dcf0"/>
+    </linearGradient>
+    <linearGradient id="floorBed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a38669"/>
+      <stop offset="100%" stop-color="#846234"/>
+    </linearGradient>
+    <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2956"/>
+      <stop offset="60%" stop-color="#3b4c86"/>
+      <stop offset="100%" stop-color="#6a7fb3"/>
+    </linearGradient>
+    <linearGradient id="duvet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf8f3"/>
+      <stop offset="100%" stop-color="#e8e1cf"/>
+    </linearGradient>
+    <linearGradient id="pillow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fdfcf8"/>
+      <stop offset="100%" stop-color="#ece5d2"/>
+    </linearGradient>
+    <linearGradient id="textBgBed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2956" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0c1230" stop-opacity="0.99"/>
+    </linearGradient>
+  </defs>
+
+  <!-- WALL -->
+  <rect x="0" y="0" width="1000" height="780" fill="url(#wallBed)"/>
+  <rect x="0" y="780" width="1000" height="14" fill="#ffffff" opacity="0.4"/>
+
+  <!-- WINDOW (night scene with moon & stars) -->
+  <rect x="110" y="110" width="340" height="420" rx="4" fill="url(#nightSky)" stroke="#9bb4d6" stroke-width="6"/>
+  <line x1="280" y1="110" x2="280" y2="530" stroke="#9bb4d6" stroke-width="4"/>
+  <line x1="110" y1="320" x2="450" y2="320" stroke="#9bb4d6" stroke-width="4"/>
+  <!-- MOON -->
+  <circle cx="360" cy="200" r="44" fill="#f9f4d2"/>
+  <circle cx="375" cy="192" r="40" fill="url(#nightSky)"/>
+  <!-- STARS -->
+  <circle cx="160" cy="170" r="2" fill="white"/>
+  <circle cx="210" cy="240" r="1.5" fill="white"/>
+  <circle cx="330" cy="390" r="2.4" fill="white"/>
+  <circle cx="170" cy="400" r="1.8" fill="white"/>
+  <circle cx="400" cy="440" r="1.5" fill="white"/>
+  <circle cx="200" cy="460" r="1" fill="white" opacity="0.8"/>
+  <!-- sleeping Z -->
+  <text x="240" y="280" font-family="Georgia,serif" font-size="30" fill="white" opacity="0.85">z</text>
+  <text x="275" y="255" font-family="Georgia,serif" font-size="40" fill="white" opacity="0.75">Z</text>
+  <text x="315" y="228" font-family="Georgia,serif" font-size="52" fill="white" opacity="0.65">Z</text>
+  <!-- CURTAINS -->
+  <path d="M85 90 Q110 290 95 550 Q70 320 65 90 Z" fill="#7a8eb4" opacity="0.9"/>
+  <path d="M475 90 Q450 290 465 550 Q490 320 495 90 Z" fill="#7a8eb4" opacity="0.9"/>
+  <rect x="55" y="82" width="500" height="16" rx="4" fill="#5a7094"/>
+
+  <!-- WALL DECOR - round clock -->
+  <circle cx="740" cy="260" r="80" fill="#fffdf5" stroke="#b7b2a0" stroke-width="4"/>
+  <circle cx="740" cy="260" r="72" fill="none" stroke="#e2dcbf" stroke-width="2"/>
+  <g stroke="#3b3b3b" stroke-width="3" stroke-linecap="round">
+    <line x1="740" y1="260" x2="740" y2="220"/>
+    <line x1="740" y1="260" x2="780" y2="275"/>
+  </g>
+  <circle cx="740" cy="260" r="4" fill="#3b3b3b"/>
+  <g fill="#8a8470" font-family="Arial" font-size="10" font-weight="700" text-anchor="middle">
+    <text x="740" y="200">12</text><text x="810" y="265">3</text>
+    <text x="740" y="330">6</text><text x="670" y="265">9</text>
+  </g>
+  <!-- Wall small photo frames -->
+  <rect x="620" y="410" width="80" height="80" fill="#fffdf5" stroke="#b7b2a0" stroke-width="3"/>
+  <rect x="630" y="420" width="60" height="60" fill="#d6e4f4"/>
+  <rect x="740" y="410" width="80" height="80" fill="#fffdf5" stroke="#b7b2a0" stroke-width="3"/>
+  <rect x="750" y="420" width="60" height="60" fill="#f4e1d0"/>
+
+  <!-- FLOOR -->
+  <rect x="0" y="794" width="1000" height="256" fill="url(#floorBed)"/>
+  <g stroke="#6d4f2e" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="870" x2="1000" y2="870"/>
+    <line x1="0" y1="950" x2="1000" y2="950"/>
+    <line x1="0" y1="1030" x2="1000" y2="1030"/>
+  </g>
+
+  <!-- BED RUG -->
+  <ellipse cx="460" cy="990" rx="380" ry="70" fill="#cfa57a" opacity="0.85"/>
+  <ellipse cx="460" cy="990" rx="340" ry="50" fill="#ddb892" opacity="0.75"/>
+
+  <!-- BED FRAME -->
+  <!-- headboard -->
+  <rect x="140" y="530" width="560" height="220" rx="20" fill="#8a6239"/>
+  <rect x="165" y="555" width="510" height="170" rx="12" fill="#a67a48"/>
+  <!-- headboard padding -->
+  <rect x="180" y="545" width="480" height="190" rx="22" fill="#6b7fa5" opacity="0.85"/>
+  <rect x="205" y="565" width="430" height="150" rx="14" fill="#8499bf" opacity="0.8"/>
+  <!-- bed base -->
+  <rect x="120" y="750" width="620" height="200" rx="14" fill="#7a5630"/>
+  <!-- legs -->
+  <rect x="128" y="948" width="16" height="50" rx="3" fill="#5a3f22"/>
+  <rect x="706" y="948" width="16" height="50" rx="3" fill="#5a3f22"/>
+  <!-- mattress -->
+  <rect x="140" y="740" width="580" height="70" rx="10" fill="#f5f5f0"/>
+  <!-- BEDDING: duvet -->
+  <path d="M140 800 L720 800 L720 940 Q430 920 140 940 Z" fill="url(#duvet)"/>
+  <!-- duvet fold -->
+  <path d="M140 800 L720 800 L700 850 Q430 835 160 850 Z" fill="#efe8d3"/>
+  <!-- PILLOWS -->
+  <rect x="190" y="680" width="200" height="120" rx="22" fill="url(#pillow)" stroke="#e0d7bd" stroke-width="2"/>
+  <rect x="430" y="680" width="200" height="120" rx="22" fill="url(#pillow)" stroke="#e0d7bd" stroke-width="2"/>
+  <!-- pillow shams edge -->
+  <rect x="205" y="695" width="170" height="90" rx="14" fill="none" stroke="#dcd2b4" stroke-width="2" opacity="0.7"/>
+  <rect x="445" y="695" width="170" height="90" rx="14" fill="none" stroke="#dcd2b4" stroke-width="2" opacity="0.7"/>
+  <!-- throw pillow -->
+  <rect x="370" y="730" width="100" height="80" rx="14" fill="#d4937a" transform="rotate(-5 420 770)"/>
+  <!-- duvet pattern dots -->
+  <g fill="#d8ccae" opacity="0.35">
+    <circle cx="220" cy="880" r="2.5"/><circle cx="280" cy="900" r="2.5"/>
+    <circle cx="340" cy="870" r="2.5"/><circle cx="400" cy="895" r="2.5"/>
+    <circle cx="460" cy="875" r="2.5"/><circle cx="520" cy="900" r="2.5"/>
+    <circle cx="580" cy="880" r="2.5"/><circle cx="650" cy="905" r="2.5"/>
+  </g>
+
+  <!-- NIGHTSTAND (RIGHT) -->
+  <rect x="800" y="770" width="150" height="200" rx="6" fill="#7a5630"/>
+  <rect x="808" y="778" width="134" height="80" rx="4" fill="#8d663a"/>
+  <rect x="808" y="870" width="134" height="90" rx="4" fill="#8d663a"/>
+  <!-- drawer knobs -->
+  <circle cx="875" cy="818" r="4" fill="#f4d986"/>
+  <circle cx="875" cy="915" r="4" fill="#f4d986"/>
+
+  <!-- TABLE LAMP -->
+  <rect x="866" y="675" width="14" height="95" fill="#594a36"/>
+  <!-- shade -->
+  <path d="M825 645 L922 645 L905 710 L842 710 Z" fill="#fce8b0"/>
+  <ellipse cx="873" cy="645" rx="50" ry="5" fill="#f0d993" opacity="0.7"/>
+  <!-- lamp glow (warm night) -->
+  <radialGradient id="lampGlowBed" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="873" cy="700" r="160" fill="url(#lampGlowBed)"/>
+
+  <!-- AIR PURIFIER on nightstand (small bedroom model, white slim) -->
+  <rect x="818" y="670" width="44" height="95" rx="8" fill="#fdfcf8" stroke="#e5e2d4" stroke-width="1.2"/>
+  <rect x="823" y="683" width="34" height="55" rx="3" fill="#ecece4"/>
+  <!-- vents -->
+  <g stroke="#b9bab0" stroke-width="1.1" opacity="0.9">
+    <line x1="827" y1="691" x2="853" y2="691"/>
+    <line x1="827" y1="699" x2="853" y2="699"/>
+    <line x1="827" y1="707" x2="853" y2="707"/>
+    <line x1="827" y1="715" x2="853" y2="715"/>
+    <line x1="827" y1="723" x2="853" y2="723"/>
+  </g>
+  <!-- indicator light -->
+  <circle cx="840" cy="677" r="3.5" fill="#10b981"/>
+  <!-- sleep mode indicator (moon icon) -->
+  <circle cx="852" cy="676" r="3" fill="#60a5fa"/>
+  <!-- quiet wave -->
+  <path d="M882 695 Q890 690 898 695 Q906 700 914 695" fill="none" stroke="#93c5fd" stroke-width="2" opacity="0.8"/>
+  <path d="M882 706 Q890 701 898 706 Q906 711 914 706" fill="none" stroke="#93c5fd" stroke-width="1.6" opacity="0.7"/>
+  <text x="840" y="777" text-anchor="middle" font-family="Arial" font-size="8" font-weight="700" fill="#6b7280">SLEEP 24dB</text>
+
+  <!-- SMALL PLANT on left corner near bed -->
+  <path d="M50 910 L55 975 L130 975 L135 910 Z" fill="#b07a45"/>
+  <ellipse cx="92" cy="911" rx="45" ry="6" fill="#d89a66"/>
+  <path d="M92 911 Q55 850 40 770 Q85 835 92 911" fill="#2d6a30"/>
+  <path d="M92 911 Q130 845 150 770 Q100 835 92 911" fill="#3e8e41"/>
+
+  <!-- Scene shadow band -->
+  <rect x="0" y="1050" width="1000" height="30" fill="black" opacity="0.08"/>
+
+  <!-- ============ TEXT BAND (30%) ============ -->
+  <rect x="0" y="1050" width="1000" height="450" fill="url(#textBgBed)"/>
+
+  <!-- accent pill -->
+  <rect x="370" y="1095" width="260" height="36" rx="18" fill="#60a5fa"/>
+  <text x="500" y="1119" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="14" font-weight="800" fill="#0c1230" letter-spacing="2.5">SLEEP MODE · 24dB · NO DISTURB</text>
+
+  <!-- Title -->
+  <text x="500" y="1208" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="60" font-weight="800" fill="#ffffff">Best Air Purifiers</text>
+  <text x="500" y="1280" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="62" font-weight="800" fill="#93c5fd">For Bedroom</text>
+  <text x="500" y="1330" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="500" fill="#cbd5e1">Top 5 Quiet Models · Sleep Better Tonight</text>
+
+  <!-- 3 feature chips -->
+  <g font-family="Poppins,Arial,sans-serif" font-weight="600" fill="#e2e8f0">
+    <rect x="80" y="1365" width="250" height="50" rx="14" fill="#ffffff" opacity="0.1"/>
+    <text x="205" y="1385" text-anchor="middle" font-size="14" fill="#93c5fd">🌙 Ultra-Quiet 24dB</text>
+    <text x="205" y="1405" text-anchor="middle" font-size="14">Whisper Sleep Mode</text>
+
+    <rect x="375" y="1365" width="250" height="50" rx="14" fill="#ffffff" opacity="0.1"/>
+    <text x="500" y="1385" text-anchor="middle" font-size="14" fill="#93c5fd">💡 Night Light Off</text>
+    <text x="500" y="1405" text-anchor="middle" font-size="14">No LED Disturbance</text>
+
+    <rect x="670" y="1365" width="250" height="50" rx="14" fill="#ffffff" opacity="0.1"/>
+    <text x="795" y="1385" text-anchor="middle" font-size="14" fill="#93c5fd">🛏️ Bedroom Size</text>
+    <text x="795" y="1405" text-anchor="middle" font-size="14">150–400 sq ft Picks</text>
+  </g>
+
+  <!-- CTA -->
+  <rect x="330" y="1438" width="340" height="48" rx="24" fill="#60a5fa"/>
+  <text x="500" y="1468" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="800" fill="#0c1230">See Top 5 Picks →</text>
+
+  <text x="500" y="1493" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="14" font-weight="600" fill="#94a3b8" opacity="0.85">digitalandgear.com</text>
+</svg>

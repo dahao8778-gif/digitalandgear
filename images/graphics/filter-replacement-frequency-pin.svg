@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937"/>
+      <stop offset="100%" style="stop-color:#6B7280"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1000" height="1500"/>
+  <rect x="60" y="60" width="230" height="50" rx="25" fill="white" opacity="0.15"/>
+  <text x="175" y="93" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="2">FILTER CARE</text>
+  <text x="500" y="380" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="62" font-weight="900" fill="white">HOW OFTEN</text>
+  <text x="500" y="460" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="62" font-weight="900" fill="white">CHANGE FILTER?</text>
+  <text x="500" y="530" text-anchor="middle" font-size="100">🔄</text>
+  <rect x="100" y="600" width="800" height="300" rx="25" fill="white"/>
+  <text x="500" y="720" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="36" font-weight="600" fill="#1F2937">REPLACE EVERY</text>
+  <text x="500" y="830" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="110" font-weight="900" fill="#1F2937">6-12 MONTHS</text>
+  <rect x="100" y="950" width="380" height="180" rx="20" fill="white" opacity="0.12"/>
+  <rect x="520" y="950" width="380" height="180" rx="20" fill="white" opacity="0.12"/>
+  <text x="290" y="1005" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="800" fill="white">🏠  LIGHT USE</text>
+  <text x="710" y="1005" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="800" fill="white">🐾  HEAVY USE</text>
+  <text x="290" y="1065" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="48" font-weight="900" fill="white">12</text>
+  <text x="710" y="1065" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="48" font-weight="900" fill="white">6</text>
+  <text x="290" y="1105" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="22" font-weight="500" fill="white" opacity="0.9">months</text>
+  <text x="710" y="1105" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="22" font-weight="500" fill="white" opacity="0.9">months</text>
+  <text x="500" y="1210" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white" opacity="0.9">💡  Check filter indicator light monthly</text>
+  <text x="500" y="1260" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="600" fill="white" opacity="0.9">⚠  Old filters = polluted air!</text>
+  <text x="500" y="1420" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.7">digitalandgear.com</text>
+</svg>

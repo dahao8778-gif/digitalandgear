@@ -8,7 +8,7 @@
 - 主要品类：空气净化器 (Air Purifiers)（2026-08-13 已彻底删除全部 5 个 Coming Soon 空分类 Audio/Computers/Robot Vacuums/Smart Home/Home Appliances，旧 URL 全部 301 至 Air Purifiers）
 - **网站定位：focused editorial website specializing in indoor air quality**（首页 title/hero/meta 已全部聚焦 Air Purifiers）
 - 页面数量：约 34 个 HTML 页面
-- 社交：Pinterest (digitalandgear)
+- 社交：~~Pinterest (digitalandgear)~~（2026-08-14 已彻底移除全站所有 Pinterest 关联）
 - **内容定位：Research-based**（不使用 "Tested/Lab" 声明，合规 Pinterest Spam 政策）
 
 ## 2026-08-06 网站评测
@@ -56,6 +56,14 @@
 - ✅ 部署卫生: .gitignore 排除 .workbuddy/ + _headers 加 X-Robots-Tag noindex 兜底
 - ⚠️ **重要约定：Product Schema 不要再加 AggregateRating**（需用 Amazon 评分时只作页面文本并标注 "Amazon customer rating"）
 - ⏳ 遗留: images/pin/*.webp 位图内文字验证（需多模态模型）; 真实作者身份 E-E-A-T（用户已跳过）
+
+## 2026-08-14 Pinterest 二次申诉修改（全站 Pinterest 关联彻底移除）
+- ✅ **Pinterest 零残留**: 21 个 HTML 文件 JSON-LD sameAs、6 个 review 页 meta pinterest-rich-pin、data-pin-description 属性、about.html 可见链接、main.js share case、affiliate-tracking.js（完全重写移除 Pinterest 追踪逻辑）、AFFILIATE-TRACKING-UPDATE.txt（删除）、CSS 类名重命名、图片目录重命名 (images/pinterest/→images/graphics/, images/pin/→images/banners/)
+- ✅ **Affiliate Disclosure 加强**: components.css 新增 .affiliate-disclosure-box 类; 14 个页面（首页+6评测+7指南）添加醒目披露框
+- ✅ **About 页面柔化**: "Evaluation Process"→"Research Process"; 增加 "We do not conduct hands-on laboratory testing" 免责声明; Editorial Independence 增加联盟佣金透明披露
+- ✅ **图片 alt 审计**: 53 个 img 标签 0 缺失 0 空
+- ✅ **JSON-LD 验证**: 74 个块全部语法通过
+- ⚠️ **重要约定：全站不得再出现任何 Pinterest 关联**（sameAs、meta 标签、分享按钮、追踪代码、目录名、CSS 类名均不可）
 
 ## 文件结构要点
 - CSS: style.css (2694行), components.css, purifier-finder.css

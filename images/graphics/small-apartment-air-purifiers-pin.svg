@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C2D12"/>
+      <stop offset="100%" style="stop-color:#FB923C"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1000" height="1500"/>
+  <rect x="60" y="60" width="330" height="50" rx="25" fill="white" opacity="0.15"/>
+  <text x="225" y="93" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="2">SMALL SPACE? YES</text>
+  <text x="500" y="430" text-anchor="middle" font-size="120">🏠</text>
+  <text x="620" y="430" text-anchor="middle" font-size="100">✅</text>
+  <text x="500" y="610" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="70" font-weight="900" fill="white">BEST SMALL</text>
+  <text x="500" y="700" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="70" font-weight="900" fill="white">AIR PURIFIERS</text>
+  <text x="500" y="770" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="30" font-weight="500" fill="white" opacity="0.9">Compact · Powerful · Apartment-Friendly</text>
+  <rect x="150" y="850" width="700" height="70" rx="15" fill="white" opacity="0.15"/>
+  <text x="500" y="895" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="white">💰  Under $150 — Great Value Picks</text>
+  <rect x="150" y="940" width="700" height="70" rx="15" fill="white" opacity="0.15"/>
+  <text x="500" y="985" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="white">📏  Fits Desks & Nightstands</text>
+  <rect x="150" y="1030" width="700" height="70" rx="15" fill="white" opacity="0.15"/>
+  <text x="500" y="1075" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="white">🔇  Whisper-Quiet Operation</text>
+  <rect x="150" y="1120" width="700" height="70" rx="15" fill="white" opacity="0.15"/>
+  <text x="500" y="1165" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="white">⚡  Low Energy Consumption</text>
+  <text x="500" y="1420" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="24" font-weight="600" fill="white" opacity="0.7">digitalandgear.com</text>
+</svg>

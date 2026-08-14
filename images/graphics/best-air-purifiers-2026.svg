@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="wall2026" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8"/>
+      <stop offset="100%" stop-color="#ebe3d3"/>
+    </linearGradient>
+    <linearGradient id="floor2026" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b9946a"/>
+      <stop offset="100%" stop-color="#967350"/>
+    </linearGradient>
+    <linearGradient id="sky2026" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8d8ea"/>
+      <stop offset="100%" stop-color="#d5f0fa"/>
+    </linearGradient>
+    <linearGradient id="sofa2026" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a8c73"/>
+      <stop offset="100%" stop-color="#5e7156"/>
+    </linearGradient>
+    <linearGradient id="textBg2026" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- WALL -->
+  <rect x="0" y="0" width="1000" height="820" fill="url(#wall2026)"/>
+  <!-- WALL BASEBOARD -->
+  <rect x="0" y="820" width="1000" height="14" fill="#e8dfc8"/>
+
+  <!-- WINDOW + CURTAINS (LEFT) -->
+  <rect x="80" y="120" width="360" height="480" rx="4" fill="url(#sky2026)" stroke="#d6cbb2" stroke-width="6"/>
+  <!-- window frame cross -->
+  <line x1="260" y1="120" x2="260" y2="600" stroke="#d6cbb2" stroke-width="5"/>
+  <line x1="80" y1="360" x2="440" y2="360" stroke="#d6cbb2" stroke-width="5"/>
+  <!-- CLOUDS -->
+  <ellipse cx="170" cy="210" rx="38" ry="10" fill="white" opacity="0.8"/>
+  <ellipse cx="330" cy="270" rx="44" ry="12" fill="white" opacity="0.75"/>
+  <ellipse cx="210" cy="460" rx="30" ry="9" fill="white" opacity="0.7"/>
+  <!-- CURTAINS -->
+  <path d="M60 100 Q80 300 70 600 Q55 400 45 100 Z" fill="#c9a96e" opacity="0.92"/>
+  <path d="M460 100 Q440 300 450 600 Q465 400 475 100 Z" fill="#c9a96e" opacity="0.92"/>
+  <rect x="40" y="92" width="460" height="14" rx="4" fill="#a0804b"/>
+
+  <!-- WALL ART -->
+  <rect x="620" y="160" width="260" height="200" rx="3" fill="white" stroke="#d6cbb2" stroke-width="5"/>
+  <rect x="640" y="180" width="220" height="160" rx="2" fill="#bfdcc6"/>
+  <!-- abstract art shapes -->
+  <circle cx="700" cy="260" r="34" fill="#f6c66d"/>
+  <rect x="760" y="225" width="60" height="60" rx="6" fill="#e2978e"/>
+  <path d="M680 320 Q740 270 810 320 Q810 340 680 340 Z" fill="#7aa7c7"/>
+
+  <!-- FLOOR -->
+  <rect x="0" y="834" width="1000" height="316" fill="url(#floor2026)"/>
+  <!-- floor planks -->
+  <g stroke="#85623e" stroke-width="1.2" opacity="0.35">
+    <line x1="0" y1="900" x2="1000" y2="900"/>
+    <line x1="0" y1="970" x2="1000" y2="970"/>
+    <line x1="0" y1="1040" x2="1000" y2="1040"/>
+    <line x1="200" y1="834" x2="170" y2="1150"/>
+    <line x1="520" y1="834" x2="540" y2="1150"/>
+    <line x1="820" y1="834" x2="800" y2="1150"/>
+  </g>
+
+  <!-- RUG -->
+  <ellipse cx="500" cy="1020" rx="420" ry="95" fill="#d9a98a" opacity="0.85"/>
+  <ellipse cx="500" cy="1020" rx="380" ry="70" fill="#e6c2a6" opacity="0.7"/>
+  <!-- rug pattern lines -->
+  <g stroke="#b58463" stroke-width="2" opacity="0.4" fill="none">
+    <ellipse cx="500" cy="1020" rx="300" ry="52"/>
+    <ellipse cx="500" cy="1020" rx="220" ry="36"/>
+  </g>
+
+  <!-- SOFA -->
+  <!-- legs -->
+  <rect x="150" y="920" width="14" height="40" rx="2" fill="#6f5135"/>
+  <rect x="736" y="920" width="14" height="40" rx="2" fill="#6f5135"/>
+  <!-- base -->
+  <rect x="140" y="820" width="620" height="110" rx="18" fill="url(#sofa2026)"/>
+  <!-- seat cushions -->
+  <rect x="175" y="790" width="265" height="58" rx="16" fill="#8fa087"/>
+  <rect x="460" y="790" width="265" height="58" rx="16" fill="#8fa087"/>
+  <!-- back -->
+  <rect x="160" y="690" width="580" height="140" rx="22" fill="url(#sofa2026)"/>
+  <!-- back cushions -->
+  <rect x="195" y="710" width="235" height="100" rx="14" fill="#93a48b"/>
+  <rect x="470" y="710" width="235" height="100" rx="14" fill="#93a48b"/>
+  <!-- throw pillow -->
+  <rect x="220" y="720" width="90" height="75" rx="10" fill="#e6b361" transform="rotate(-7 265 757)"/>
+  <rect x="595" y="722" width="88" height="73" rx="10" fill="#d97858" transform="rotate(6 639 758)"/>
+  <!-- armrests -->
+  <rect x="120" y="750" width="56" height="170" rx="20" fill="url(#sofa2026)"/>
+  <rect x="724" y="750" width="56" height="170" rx="20" fill="url(#sofa2026)"/>
+
+  <!-- COFFEE TABLE -->
+  <rect x="350" y="905" width="300" height="16" rx="4" fill="#a0804b"/>
+  <rect x="370" y="921" width="14" height="60" rx="2" fill="#846234"/>
+  <rect x="616" y="921" width="14" height="60" rx="2" fill="#846234"/>
+  <!-- book -->
+  <rect x="380" y="885" width="110" height="20" rx="3" fill="#1e40af"/>
+  <rect x="386" y="888" width="98" height="14" rx="1" fill="#3b82f6"/>
+  <!-- plant pot -->
+  <ellipse cx="580" cy="906" rx="30" ry="5" fill="#b88559"/>
+  <path d="M550 875 L555 907 L605 907 L610 875 Z" fill="#8a5a33"/>
+  <ellipse cx="580" cy="876" rx="30" ry="5" fill="#a27150"/>
+  <!-- leaves -->
+  <path d="M580 876 Q555 840 540 810 Q575 835 580 876" fill="#3e8e41"/>
+  <path d="M580 876 Q605 835 625 800 Q590 840 580 876" fill="#52a055"/>
+  <path d="M580 876 Q560 820 560 780 Q590 830 580 876" fill="#4a9747"/>
+
+  <!-- FLOOR LAMP (RIGHT OF SOFA) -->
+  <rect x="835" y="575" width="6" height="345" fill="#594a36"/>
+  <circle cx="838" cy="920" r="32" fill="#594a36"/>
+  <!-- shade -->
+  <path d="M790 555 L886 555 L868 640 L808 640 Z" fill="#f4e3b5"/>
+  <ellipse cx="838" cy="555" rx="48" ry="5" fill="#e7cf93" opacity="0.7"/>
+  <!-- light glow -->
+  <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0%" stop-color="#fff4cc" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#fff4cc" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="838" cy="600" r="130" fill="url(#lampGlow)"/>
+
+  <!-- SIDE TABLE + AIR PURIFIER (LEFT OF SOFA) -->
+  <rect x="60" y="795" width="90" height="10" rx="3" fill="#8b6a40"/>
+  <rect x="68" y="805" width="8" height="130" fill="#6c5030"/>
+  <rect x="134" y="805" width="8" height="130" fill="#6c5030"/>
+  <!-- PURIFIER: LEVOIT style white cylinder -->
+  <rect x="72" y="680" width="66" height="115" rx="12" fill="#f8f9fb" stroke="#d7dce3" stroke-width="1.5"/>
+  <rect x="78" y="696" width="54" height="68" rx="4" fill="#e8ecf1"/>
+  <!-- vent slits -->
+  <g stroke="#b8bfc9" stroke-width="1.4" opacity="0.9">
+    <line x1="82" y1="708" x2="128" y2="708"/>
+    <line x1="82" y1="718" x2="128" y2="718"/>
+    <line x1="82" y1="728" x2="128" y2="728"/>
+    <line x1="82" y1="738" x2="128" y2="738"/>
+    <line x1="82" y1="748" x2="128" y2="748"/>
+  </g>
+  <!-- top control panel -->
+  <ellipse cx="105" cy="683" rx="30" ry="5" fill="#e2e6ec"/>
+  <circle cx="105" cy="682" r="6" fill="#2563eb"/>
+  <!-- brand -->
+  <text x="105" y="784" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4b5563">LEVOIT</text>
+  <!-- fresh air rays -->
+  <g stroke="#a7f3d0" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <line x1="105" y1="665" x2="105" y2="640"/>
+    <line x1="92" y1="658" x2="82" y2="638"/>
+    <line x1="118" y1="658" x2="128" y2="638"/>
+    <line x1="80" y1="670" x2="62" y2="665"/>
+    <line x1="130" y1="670" x2="148" y2="665"/>
+  </g>
+
+  <!-- FLOOR PLANT (far left) -->
+  <ellipse cx="60" cy="930" rx="55" ry="8" fill="#8a5a33" opacity="0.5"/>
+  <path d="M25 880 L30 928 L90 928 L95 880 Z" fill="#c98a52"/>
+  <ellipse cx="60" cy="881" rx="35" ry="6" fill="#e0a870"/>
+  <path d="M60 880 Q25 820 15 760 Q55 810 60 880" fill="#2d6a30" opacity="0.95"/>
+  <path d="M60 880 Q95 815 110 740 Q70 805 60 880" fill="#3e8e41" opacity="0.95"/>
+  <path d="M60 880 Q40 800 45 720 Q70 800 60 880" fill="#4fa14e" opacity="0.9"/>
+
+  <!-- SCENE SEPARATOR LINE - subtle shadow -->
+  <rect x="0" y="1050" width="1000" height="30" fill="black" opacity="0.1"/>
+
+  <!-- ========== TEXT BAND 30% (1050-1500) ========== -->
+  <rect x="0" y="1050" width="1000" height="450" fill="url(#textBg2026)"/>
+
+  <!-- accent pill -->
+  <rect x="350" y="1100" width="300" height="38" rx="19" fill="#f59e0b"/>
+  <text x="500" y="1125" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="15" font-weight="800" fill="#1f2937" letter-spacing="3">EDITOR-RANKED · UPDATED JULY 2026</text>
+
+  <!-- Title -->
+  <text x="500" y="1210" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="64" font-weight="800" fill="#ffffff">Best Air Purifiers 2026</text>
+  <text x="500" y="1285" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="38" font-weight="600" fill="#fbbf24">10 Top-Rated Models Compared</text>
+
+  <!-- 3 star ratings -->
+  <g font-family="Poppins,Arial,sans-serif" font-size="16" font-weight="600" fill="#e2e8f0">
+    <rect x="110" y="1340" width="230" height="52" rx="14" fill="#ffffff" opacity="0.08"/>
+    <text x="225" y="1365" text-anchor="middle" font-size="22" fill="#fbbf24">★★★★★</text>
+    <text x="225" y="1385" text-anchor="middle">Research-Based Reviews</text>
+
+    <rect x="385" y="1340" width="230" height="52" rx="14" fill="#ffffff" opacity="0.08"/>
+    <text x="500" y="1365" text-anchor="middle" font-size="22" fill="#fbbf24">🏆 Best Buys</text>
+    <text x="500" y="1385" text-anchor="middle">Under $100 · $200 · $500</text>
+
+    <rect x="660" y="1340" width="230" height="52" rx="14" fill="#ffffff" opacity="0.08"/>
+    <text x="775" y="1365" text-anchor="middle" font-size="22" fill="#fbbf24">✓ Verified</text>
+    <text x="775" y="1385" text-anchor="middle">Specs + Verified User Feedback</text>
+  </g>
+
+  <!-- CTA -->
+  <rect x="320" y="1420" width="360" height="52" rx="26" fill="#f97316"/>
+  <text x="500" y="1453" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="19" font-weight="800" fill="#ffffff">See Full Ranking →</text>
+
+  <!-- brand -->
+  <text x="500" y="1490" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="15" font-weight="700" fill="#94a3b8" opacity="0.9">digitalandgear.com</text>
+</svg>

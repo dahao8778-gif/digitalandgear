@@ -206,11 +206,6 @@ document.addEventListener('DOMContentLoaded', function () {
         case 'twitter':
           shareUrl = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
           break;
-        case 'pinterest':
-          const ogImage = document.querySelector('meta[property="og:image"]');
-          const imageUrl = encodeURIComponent(ogImage ? ogImage.content : '');
-          shareUrl = `https://pinterest.com/pin/create/button/?url=${pageUrl}&media=${imageUrl}&description=${pageTitle}`;
-          break;
         case 'email':
           const emailSubject = encodeURIComponent('Check out this air purifier guide!');
           const emailBody = encodeURIComponent(

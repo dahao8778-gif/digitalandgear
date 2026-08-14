@@ -2541,7 +2541,7 @@ td .cross {
 }
 
 /* =========================
-   Pinterest Components
+   Image Components
    ========================= */
 
 .trending-ideas {
@@ -2555,7 +2555,7 @@ td .cross {
   margin-bottom: 8px;
 }
 
-.pinterest-grid {
+.pin-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 24px;
@@ -2649,8 +2649,8 @@ td .cross {
   opacity: 1;
 }
 
-/* Pinterest Hero Image (Review pages) */
-.pinterest-hero-image {
+/* Hero Banner Image (Review pages) */
+.hero-banner-image {
   width: 100%;
   max-width: 400px;
   margin: 0 auto 24px;
@@ -2660,14 +2660,14 @@ td .cross {
   display: block;
 }
 
-.pinterest-hero-image svg {
+.hero-banner-image svg {
   width: 100%;
   height: auto;
   display: block;
 }
 
 @media (max-width: 768px) {
-  .pinterest-grid {
+  .pin-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
@@ -2686,7 +2686,7 @@ td .cross {
 }
 
 @media (max-width: 480px) {
-  .pinterest-grid {
+  .pin-grid {
     grid-template-columns: 1fr;
   }
 }

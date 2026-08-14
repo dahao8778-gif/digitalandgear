@@ -55,7 +55,7 @@
         return;
       }
 
-      // Skip Pinterest / OG images
+      // Skip OG images
       if (img.closest('.og-image-check')) {
         img.setAttribute('data-optimized', 'true');
         return;
