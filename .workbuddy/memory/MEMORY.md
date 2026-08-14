@@ -5,9 +5,11 @@
 - 类型：亚马逊联盟落地页网站 (Amazon Associates)
 - 技术栈：纯静态 HTML/CSS/JS，无框架无 CMS
 - 联盟 ID：dahao8778-20 (Amazon Associates tag)
-- 主要品类：空气净化器 (Air Purifiers)，其余 5 个品类为 "Coming Soon"
+- 主要品类：空气净化器 (Air Purifiers)（2026-08-13 已彻底删除全部 5 个 Coming Soon 空分类 Audio/Computers/Robot Vacuums/Smart Home/Home Appliances，旧 URL 全部 301 至 Air Purifiers）
+- **网站定位：focused editorial website specializing in indoor air quality**（首页 title/hero/meta 已全部聚焦 Air Purifiers）
 - 页面数量：约 34 个 HTML 页面
 - 社交：Pinterest (digitalandgear)
+- **内容定位：Research-based**（不使用 "Tested/Lab" 声明，合规 Pinterest Spam 政策）
 
 ## 2026-08-06 网站评测
 - 综合评分：6.9/10
@@ -25,10 +27,38 @@
 - ✅ P1: 内联样式迁移 — components.css 新增完整组件类体系 (section-header, pick-card, cat-card, latest-card, guide-card, testing-item 共5大组件及主题变体), index.html 174→13处
 - ✅ P2: BOM清除 — 21个HTML文件中86个重复UTF-8 BOM已去除
 - ✅ P3: 代码清理 — 33个文件GTM TODO注释 + main.js中3处console.log + Console Welcome
-- ⏳ 待处理: 真实作者身份, 第2品类内容, 评测页内联样式 (best-air-purifiers-2026.html 仍有344处)
+- ⏳ 待处理: 真实作者身份 (E-E-A-T, 用户已跳过), 验证 images/pin/*.webp 位图内文字 (需多模态模型)
+
+## 2026-08-06 Pinterest Spam 专项整改（第三轮）
+- ✅ 评分体系: 全站 /10 制归零, 统一 /5 星级制 (9.2→4.7 等换算), 星星与分数对齐, 20个 AggregateRating 校验通过
+- ✅ 加权评分模型 (how-we-test.html 权重表): Performance/CADR 30% · Filtration 20% · Noise 15% · Value 15% · Filter Cost 10% · Features 10%
+- ✅ how-we-test.html 重写为 "How We Research & Evaluate Products" 7 步方法论
+- ✅ 数据来源标注: 6 个页面加 .table-note "Ratings based on manufacturer specifications, AHAM certification data, and verified customer feedback"
+- ✅ CTA 密度: 删除 5 个无效自锚点按钮 (Amazon 链接 24→19)
+- ✅ 全站 Research 定位: "Tested" 声明零残留 (html/svg/js/xml 全复查), 导航 "How We Test"→"How We Research" 58 处
+- ✅ Coming Soon 分类已全部删除并 301 重定向, sitemap/robots/导航已更新
+
+## 2026-08-13 网站收缩（聚焦 Air Purifiers）
+- ✅ 删除全部 5 个 Coming Soon 空分类目录 (categories/{audio,computers,home-appliances,robot-vacuums,smart-home}/)
+- ✅ _redirects 新增 5 条 301: `/categories/{audio,computers,home-appliances,robot-vacuums,smart-home}/* → /categories/air-purifiers/`
+- ✅ robots.txt 删除 5 行 Disallow; guides/reviews/tools 索引页删除全部 Coming Soon 区块
+- ✅ 首页定位改写: "Smart Product Reviews" → "Air Purifier Reviews & Buying Guides" (title/og/twitter/hero/schema)
+- ✅ categories/air-purifiers 删除 Dyson/Honeywell 无内容品牌占位卡, 网格 3列→2列
+- ✅ 全站 "Coming Soon" 零残留; sitemap.xml 无需改动
+
+## 2026-08-13 Pinterest 解封前"真实性清洗"（外部 AI 审计第二轮）
+- ✅ **P0 全清**：虚构测试声明（quiet 页 REED R8050/controlled bedroom、cat-litter 页 30 天多猫家庭实验）全部改写为 Research 表述
+- ✅ "Independent testing" → "Independent research"（3 页 hero）; 首页/分类页/FAQ/JSON-LD Organization description 全部 Research 化
+- ✅ 删除开发文件: test-images.html / test-svg.html / wrapper.html / review-template.html
+- ✅ **20 个 Product Schema AggregateRating 全部移除**（Amazon 用户评分违反 Google 聚合评分政策）; 保留 Review schema reviewRating（编辑评分）
+- ✅ 页面可见评分统一标注 "Digital & Gear Score: X.X/5" / "Our Score"
+- ✅ how-we-test.html 新增 Sources & Verification 章节 + AHAM/ENERGY STAR/CARB/厂商官网真实外链
+- ✅ 部署卫生: .gitignore 排除 .workbuddy/ + _headers 加 X-Robots-Tag noindex 兜底
+- ⚠️ **重要约定：Product Schema 不要再加 AggregateRating**（需用 Amazon 评分时只作页面文本并标注 "Amazon customer rating"）
+- ⏳ 遗留: images/pin/*.webp 位图内文字验证（需多模态模型）; 真实作者身份 E-E-A-T（用户已跳过）
 
 ## 文件结构要点
 - CSS: style.css (2694行), components.css, purifier-finder.css
 - JS: main.js, components.js (组件注入系统)
 - 结构: reviews/ guides/ categories/ tools/ 四大目录
-- 结构化数据: Product + AggregateRating + Offer + ItemList + BreadcrumbList + FAQPage + Article
+- 结构化数据: Product + Offer + ItemList + BreadcrumbList + FAQPage + Article + Review（**2026-08-13 起不再使用 AggregateRating**）
