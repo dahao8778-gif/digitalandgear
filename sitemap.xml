@@ -75,10 +75,32 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Tax Software Section -->
+  <url>
+    <loc>https://digitalandgear.com/tax-software/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/tax-software/turbotax-finder.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/tax-software/turbotax-deluxe-2025-review.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Tools -->
   <url>
     <loc>https://digitalandgear.com/tools/</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -144,6 +166,34 @@
   <url>
     <loc>https://digitalandgear.com/guides/air-purifiers/best-quiet-air-purifier-under-150.html</loc>
     <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/guides/air-purifiers/best-air-purifier-for-ragweed-allergies.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/guides/air-purifiers/coway-ap-1512hh-filter-replacement.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/guides/air-purifiers/levoit-core-300-filter-replacement.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/guides/air-purifiers/levoit-core-300-vs-core-300s.html</loc>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
