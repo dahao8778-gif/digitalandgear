@@ -240,6 +240,20 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://digitalandgear.com/guides/air-purifiers/best-quiet-air-purifier-for-sleeping.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://digitalandgear.com/guides/air-purifiers/best-air-purifier-for-small-bedroom.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Company & Policy Pages -->
   <url>
     <loc>https://digitalandgear.com/about.html</loc>
